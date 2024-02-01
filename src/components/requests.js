@@ -1,4 +1,4 @@
-const API_KEY = process.env.REACT_APP_FIREBASE_API_KEY 
+const API_KEY = "5b20c33200d5fa3c0e361d3a268d628f"
 
 const requests = {
     fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
